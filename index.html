@@ -7,25 +7,38 @@
     <link rel="stylesheet" href="./styles/style.css">
     <title>Revision</title>
 </head>
+<main>
+<body>
+    <header>
+        <img class=logo src="https://i.postimg.cc/W3qr8h5p/logo-adidas-2022-pb.jpg" alt="logo">
+        <nav class="menu">
+            <ul class="menu-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
 <body>
     <!--Unordered list -->
     <section>
-        <h2>Unordered List</h2>
+        <h2><ins>Unordered List</ins></h2>
     <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
+        <li><small>Item 1</small></li>
+        <li><small>Item 2</small></li>
+        <li><small>Item 3</small></li>
+        <li><small>Item 4</small></li>
     </ul>
     </section>
     <!--Ordered list -->
     <section>
-        <h2>Ordered List</h2>
+        <h2><ins>Ordered List</ins></h2>
     <ol>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
+        <li><em>Item 1</em></li>
+        <li><em>Item 2</em></li>
+        <li><em>Item 3</em></li>
+        <li><em>Item 4</em></li>
     </ol>
     </section>
     <!--Table -->
@@ -34,34 +47,65 @@
         <table>
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Surname</th>
-                    <th>Cellphone number</th>
+                    <th><b>Name</b></th>
+                    <th><b>Surname</b></th>
+                    <th><b>Cellphone<sup>number</sup></b></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Imraan</td>
-                    <td>Bernksen</td>
-                    <td>0681278921</td>
+                    <td><i>Imraan</i></td>
+                    <td><i>Bernksen</i></td>
+                    <td><i>0681278921</i></td>
                 </tr>
                 <tr>
-                    <td>Mogamad</td>
-                    <td>Marney</td>
-                    <td>0736692889</td>
+                    <td><strong>Mogamad</strong></td>
+                    <td><strong>Marney</strong></td>
+                    <td><strong>0736692889</strong></td>
                 </tr>
                 <tr>
-                    <td>Abdul-Azeez</td>
-                    <td>Saban</td>
-                    <td>0676676586</td>
+                    <td><mark>Abdul-Azeez</mark></td>
+                    <td><mark>Saban</mark></td>
+                    <td><mark>0676676586</mark></td>
                 </tr>
             </tbody>
         </table>
     </section>
     <!-- Image -->
     <section>
-        <h2>Image</h2>
+        <h2><del>Image</del></h2>
         <img src="https://i.postimg.cc/9FxD2m2T/index-main-block1-1-20211118.jpg" alt="Laptop">
     </section>
+    <h2>Form</h2>
+            <form action="https://formspree.io/f/xlevlgvr" method="post">
+                <div>
+                    <input type="text" name="name" placeholder="Enter your name">
+                </div>
+                <div>
+                    <input type="text" name="surname" placeholder="Enter your surname">
+                </div>
+                <div>
+                    <input type="password" name="password" placeholder="Enter your password">
+                </div>
+                <div>
+                    <span>Male</span> <input type="radio" name="gender">
+                    <span>Female</span> <input type="radio" name="gender">
+                </div>
+                <div>
+                    <label>Subjects:</label>
+                    <span>HTML 5<input type="checkbox" name="subject" ></span>
+                    <span>CSS 3<input type="checkbox" name="subject" ></span>
+                    <span>Bootstrap<input type="checkbox" name="subject" ></span>
+                    <span>JavaScript<input type="checkbox" name="subject" ></span>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+<footer>
+    <p>Copyright &copy; 2022</p>
+</footer>
 </body>
+</main>
 </html>
