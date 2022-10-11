@@ -1,3 +1,31 @@
+:root {
+    --primaryColor: black;
+    --secondaryColor: white;
+    --alternativeColor: blue;
+    --gray: rgba(205, 198, 198, 0.5);
+    --mainBoxShadow: .5vw .5vw .5vw var(--alternativeColor);
+    --landingPage : .5vw 1vw .5vw var(--gray);
+    --activeLink: #00b061;
+}
+
+#box1 {
+    background-color:green;
+    margin: auto;
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 20px 10px;
+    border: 10px solid black;
+}
+
+#box2 {
+    color: blue;
+    font-weight: bold;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -31,6 +59,31 @@ padding: 0 5px;
 .menu-list {
     list-style: none;
 }
+/* Anchor tags */
+a:link {
+    background-color: var(--gray);
+    color: var(--primaryColor);
+}
+a:visited {
+    color: var(--alternativeColor);
+    border-radius: 5px;
+}
+a:hover {
+    font-size: 18px;
+    color: var(--secondaryColor);
+    background-color: green;
+}
+a:active {
+    color: var(--primaryColor);
+    background-color: var(--activeLink);
+}
+/* Pseudo-class selector */
+h2::first-letter {
+    background-color: darkcyan;
+    color: white;
+    padding: 0 5px;
+    font-size: 20px;
+}
 
 table{
     border: 3px solid blue;
@@ -42,5 +95,23 @@ th, td {
 }
 
 footer p {
+    font-weight: bold;
+}
+
+#phone1 {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#phone2 {
+    background-color: blue;
+    color: green;
+    font-weight: bold;
+}
+
+#phone3 {
+    background-color: yellow;
+    color: grey;
     font-weight: bold;
 }
