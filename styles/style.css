@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+h2 {
+   font-family: 'Courier New', Courier, monospace;
+}
+
 :root {
     --primaryColor: black;
     --secondaryColor: white;
